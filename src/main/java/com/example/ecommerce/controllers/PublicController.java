@@ -14,8 +14,5 @@ public class PublicController {
         return "index";
     }
 
-    @GetMapping("/products")
-    public String listAllProducts(){
-        return "products";
-    }
+
 }
