@@ -1,23 +1,24 @@
 package com.example.ecommerce.controllers;
 
+import com.example.ecommerce.dtos.LoginForm;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/login")
+@RequestMapping("/")
 public class SessionController {
 
-    @GetMapping
+    private String secretKey;
+
+    @GetMapping("/login")
     public String login(){
         return "login";
     }
 
-    @PostMapping
-    public String logear(){
-        return "index";
-    }
+    @PostMapping("/login")
+    public String logear(LoginForm form){ return "index"; }
 
     @PostMapping("/logout")
     public String logout(){
@@ -33,4 +34,6 @@ public class SessionController {
     public String refresh(){
         return "index";
     }
+
+
 }
