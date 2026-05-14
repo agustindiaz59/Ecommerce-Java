@@ -5,3 +5,7 @@ Ecommerce desarrollado para mi emprendimiento de Impresiones 3D Sam, enfocado en
 ---
 
 El objetivo del proyecto es construir una plataforma real de venta online aplicando buenas prácticas de desarrollo backend y frontend, arquitectura MVC, persistencia de datos y despliegue moderno con la estabilidad de java + spring.
+
+---
+
+Este proyecto sera una continuacion más avanzada de mi anteriorecommerce, ver en: https://ms-accesorios.web.app/
